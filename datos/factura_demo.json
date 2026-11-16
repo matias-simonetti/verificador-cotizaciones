@@ -1,0 +1,126 @@
+{
+ "nota": "Factura ficticia. Trae dos errores del proveedor puestos a propósito para que el verificador los marque.",
+ "factura": {
+  "tipo": "A",
+  "numero": "0003-00012845",
+  "fecha": "2026-11-12",
+  "proveedor": "Distribuidora Andina de Materiales S.A.",
+  "cliente": "Corralón Los Coihues",
+  "provincia_proveedor": "Río Negro"
+ },
+ "renglones": [
+  {
+   "n": 1,
+   "codigo": "DA-20101",
+   "descripcion": "Cemento portland bolsa 25 kg",
+   "adicional": "PALLET X 40 BOLSAS",
+   "cantidad": 200,
+   "unidad": "bolsa",
+   "peso_kg": 25,
+   "precio_lista": 9850.0,
+   "bonificacion": 10,
+   "importe_proveedor": 1773000.0
+  },
+  {
+   "n": 2,
+   "codigo": "DA-20115",
+   "descripcion": "Cal hidráulica bolsa 25 kg",
+   "adicional": "PALLET X 40 BOLSAS",
+   "cantidad": 80,
+   "unidad": "bolsa",
+   "peso_kg": 25,
+   "precio_lista": 5420.0,
+   "bonificacion": 10,
+   "importe_proveedor": 390240.0
+  },
+  {
+   "n": 3,
+   "codigo": "DA-20282",
+   "descripcion": "Adhesivo para cerámicos común bolsa 30 kg",
+   "adicional": "PALLET X 40 BOLSAS",
+   "cantidad": 40,
+   "unidad": "bolsa",
+   "peso_kg": 30,
+   "precio_lista": 7398.12,
+   "bonificacion": 8,
+   "importe_proveedor": 272250.82
+  },
+  {
+   "n": 4,
+   "codigo": "DA-20410",
+   "descripcion": "Placa OSB 9,5 mm 1,22 x 2,44 m",
+   "adicional": "PALLET X 70 PLACAS",
+   "cantidad": 70,
+   "unidad": "placa",
+   "peso_kg": 17.5,
+   "precio_lista": 21500.0,
+   "bonificacion": 5,
+   "importe_proveedor": 1429750.0
+  },
+  {
+   "n": 5,
+   "codigo": "DA-20422",
+   "descripcion": "Placa fenólica 18 mm 1,22 x 2,44 m",
+   "adicional": "PALLET X 40 PLACAS",
+   "cantidad": 20,
+   "unidad": "placa",
+   "peso_kg": 33,
+   "precio_lista": 48900.0,
+   "bonificacion": 5,
+   "importe_proveedor": 978000.0
+  },
+  {
+   "n": 6,
+   "codigo": "DA-20534",
+   "descripcion": "Hierro ADN420 10 mm x 12 m",
+   "adicional": "ATADO X 50 BARRAS",
+   "cantidad": 100,
+   "unidad": "barra",
+   "peso_kg": 7.4,
+   "precio_lista": 10176.79,
+   "bonificacion": 5,
+   "importe_proveedor": 966795.05
+  },
+  {
+   "n": 7,
+   "codigo": "DA-20610",
+   "descripcion": "Membrana asfáltica 4 mm rollo 10 m²",
+   "adicional": "",
+   "cantidad": 15,
+   "unidad": "rollo",
+   "peso_kg": 40,
+   "precio_lista": 38500.0,
+   "bonificacion": 0,
+   "importe_proveedor": 577500.0
+  },
+  {
+   "n": 8,
+   "codigo": "DA-20705",
+   "descripcion": "Tornillo autoperforante 14 x 2\" caja x 100",
+   "adicional": "BULTO X 20 CAJAS",
+   "cantidad": 10,
+   "unidad": "caja",
+   "peso_kg": 1.2,
+   "precio_lista": 6850.0,
+   "bonificacion": 0,
+   "importe_proveedor": 68500.0
+  }
+ ],
+ "impuestos": {
+  "iva": 21,
+  "percepcion_iibb": 3,
+  "percepcion_jurisdiccion": "Río Negro"
+ },
+ "totales_proveedor": {
+  "neto": 6456035.87,
+  "iva": 1355767.53,
+  "percepcion": 234354.1,
+  "total": 8046157.5
+ },
+ "pie": "Flete: camión carga completa, $ 85.000 por tonelada.",
+ "fletes_sugeridos": {
+  "tonelada": 85000,
+  "pallet": 45000,
+  "expreso": 180000
+ }
+}
